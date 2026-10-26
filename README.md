@@ -2,6 +2,10 @@
 
 This repository is the support channel for the Unity kits published by Romano Assets.
 
+## Ask on Discord
+
+For questions, quick help, ideas and sharing what you've built, join the [Romano Assets Discord](https://discord.gg/AmpBDxRAKu). Use #help for questions, #bug-reports for bugs and #feature-requests for ideas. Bugs confirmed there are tracked here.
+
 ## Report a bug
 
 Open a [bug report](https://github.com/marklromano/RomanoAssetSupport/issues/new?template=bug_report.yml). The form asks for everything needed to reproduce the problem. For ideas and improvements, use the [feature request](https://github.com/marklromano/RomanoAssetSupport/issues/new?template=feature_request.yml) form. For setup and usage questions, use [Discussions](https://github.com/marklromano/RomanoAssetSupport/discussions).
