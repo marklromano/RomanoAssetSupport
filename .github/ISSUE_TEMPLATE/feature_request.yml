@@ -1,0 +1,39 @@
+name: Feature request
+description: Suggest an improvement to one of the Romano Assets kits.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Which kit is this for?
+      options:
+        - All In One Save Kit
+        - All In One Prefab Builder Kit
+        - Interaction Kit
+        - Settings Menu Kit
+        - Runtime Building Kit
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem it solves
+      description: What are you trying to do, and what makes it hard with the kit today?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Proposed idea
+      description: Describe the change you would like.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Other approaches or workarounds you have considered.
+    validations:
+      required: false

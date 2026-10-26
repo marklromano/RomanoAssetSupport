@@ -1,0 +1,96 @@
+name: Bug report
+description: Report a problem with one of the Romano Assets kits.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem. Please fill in every required field so the issue can be reproduced.
+        Do not include passwords, keys or other private information. Report security issues privately as described in SECURITY.md.
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Which kit is affected?
+      options:
+        - All In One Save Kit
+        - All In One Prefab Builder Kit
+        - Interaction Kit
+        - Settings Menu Kit
+        - Runtime Building Kit
+    validations:
+      required: true
+  - type: input
+    id: kit-version
+    attributes:
+      label: Kit version
+      description: Shown in the kit's changelog or About window.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: unity-version
+    attributes:
+      label: Unity version
+      description: The exact editor version from Unity Hub.
+      placeholder: "6000.3.24f1"
+    validations:
+      required: true
+  - type: dropdown
+    id: render-pipeline
+    attributes:
+      label: Render pipeline
+      options:
+        - Built-in
+        - URP
+        - HDRP
+    validations:
+      required: false
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      description: Where the problem happens, for example Windows editor, Windows player (Mono) or Windows player (IL2CPP).
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Describe the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+      description: Describe what you expected to happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The shortest list of steps that shows the problem, ideally in a new empty project or one of the kit's demo scenes.
+      placeholder: |
+        1. Open the demo scene ...
+        2. Press Play ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console log or kit report
+      description: Paste the relevant Console output, or the report the kit's Diagnostics window produces. It is formatted as code automatically.
+      render: shell
+    validations:
+      required: false
+  - type: checkboxes
+    id: searched
+    attributes:
+      label: Existing issues
+      options:
+        - label: I searched existing issues
+          required: false
