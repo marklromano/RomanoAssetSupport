@@ -13,7 +13,7 @@ body:
         - All In One Prefab Builder Kit
         - Interaction Kit
         - Settings Menu Kit
-        - Runtime Building Kit
+        - All In One Runtime Building Kit
     validations:
       required: true
   - type: textarea
