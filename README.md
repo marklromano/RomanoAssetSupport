@@ -30,6 +30,6 @@ Support covers bugs in the kits themselves and questions about setting them up a
 
 - All In One Save Kit: https://marklromano.github.io/
 - All In One Prefab Builder Kit: https://marklromano.github.io/
-- Interaction Kit: https://marklromano.github.io/
+- All In One Interaction Kit: https://marklromano.github.io/
 - Settings Menu Kit: https://marklromano.github.io/
 - Runtime Building Kit: https://marklromano.github.io/
