@@ -4,9 +4,9 @@ This repository is the support channel for the Unity kits published by Romano As
 
 ## Report a bug
 
-Open a [bug report](https://github.com/marklromano/RomanoAssetSupport/issues/new?template=bug_report.yml). The form asks for everything needed to reproduce the problem. For ideas and improvements, use the [feature request](https://github.com/marklromano/RomanoAssetSupport/issues/new?template=feature_request.yml) form. For setup and usage questions, use [Discussions](https://github.com/marklromano/RomanoAssetSupport/discussions).
+Open a [bug report](https://github.com/romanoassets/RomanoAssetSupport/issues/new?template=bug_report.yml). The form asks for everything needed to reproduce the problem. For ideas and improvements, use the [feature request](https://github.com/romanoassets/RomanoAssetSupport/issues/new?template=feature_request.yml) form. For setup and usage questions, use [Discussions](https://github.com/romanoassets/RomanoAssetSupport/discussions).
 
-Please search [existing issues](https://github.com/marklromano/RomanoAssetSupport/issues) first. Your problem may already have an answer.
+Please search [existing issues](https://github.com/romanoassets/RomanoAssetSupport/issues) first. Your problem may already have an answer.
 
 ## What to include
 
@@ -28,8 +28,8 @@ Support covers bugs in the kits themselves and questions about setting them up a
 
 ## Documentation
 
-- All In One Save Kit: https://marklromano.github.io/
-- All In One Prefab Builder Kit: https://marklromano.github.io/
-- All In One Interaction Kit: https://marklromano.github.io/
-- Settings Menu Kit: https://marklromano.github.io/
-- Runtime Building Kit: https://marklromano.github.io/
+- All In One Save Kit: https://romanoassets.github.io/save-kit/
+- All In One Prefab Builder Kit: https://romanoassets.github.io/prefab-builder/
+- All In One Interaction Kit: https://romanoassets.github.io/interaction-kit/
+- Settings Menu Kit: https://romanoassets.github.io/
+- Runtime Building Kit: https://romanoassets.github.io/
